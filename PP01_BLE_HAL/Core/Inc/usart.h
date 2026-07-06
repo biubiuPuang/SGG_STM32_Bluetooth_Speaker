@@ -30,6 +30,9 @@ extern "C" {
 
 /* USER CODE BEGIN Includes */
 
+// 自定义debug代码需要的头文件声明
+#include "stdio.h"
+
 /* USER CODE END Includes */
 
 extern UART_HandleTypeDef huart1;

@@ -183,10 +183,15 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 
   /* USER CODE BEGIN USART2_MspDeInit 1 */
 
-  /* USER CODE END USART2_MspDeInit 1 */
+  /* USER CODE END USART2_MspDeInit 1 */\
   }
 }
 
 /* USER CODE BEGIN 1 */
-
+// 用户自定义 debug打印函数 重定向printf函数到串口1
+int fputc(int ch, FILE *f)
+{
+  HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 1000);
+  return ch;
+}
 /* USER CODE END 1 */

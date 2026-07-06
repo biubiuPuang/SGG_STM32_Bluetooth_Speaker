@@ -90,6 +90,9 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
 
+  // 自定义函数 测试重定向的串口1是否能使用debug打印数据
+  printf("hello world\r\n");
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
