@@ -3,16 +3,17 @@
         {
             "name": "PP01_BLE_HAL",
             "includePath": [
-                "c:\\Users\\12155\\Pictures\\Embedded-Software-Engineer\\Project\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Core\\Inc",
-                "c:\\Users\\12155\\Pictures\\Embedded-Software-Engineer\\Project\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
-                "c:\\Users\\12155\\Pictures\\Embedded-Software-Engineer\\Project\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
-                "c:\\Users\\12155\\Pictures\\Embedded-Software-Engineer\\Project\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
-                "c:\\Users\\12155\\Pictures\\Embedded-Software-Engineer\\Project\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Drivers\\CMSIS\\Include",
-                "c:\\Users\\12155\\Pictures\\Embedded-Software-Engineer\\Project\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\BLE",
-                "D:\\Keil5\\Core\\ARM\\ARMCC\\include",
-                "c:\\Users\\12155\\Pictures\\Embedded-Software-Engineer\\Project\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\MDK-ARM",
-                "c:\\Users\\12155\\Pictures\\Embedded-Software-Engineer\\Project\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Core\\Src",
-                "c:\\Users\\12155\\Pictures\\Embedded-Software-Engineer\\Project\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Drivers\\STM32F1xx_HAL_Driver\\Src"
+                "d:\\_Project\\SGG_STM32_Bluetooth_Speaker-main\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Core\\Inc",
+                "d:\\_Project\\SGG_STM32_Bluetooth_Speaker-main\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
+                "d:\\_Project\\SGG_STM32_Bluetooth_Speaker-main\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Drivers\\STM32F1xx_HAL_Driver\\Inc\\Legacy",
+                "d:\\_Project\\SGG_STM32_Bluetooth_Speaker-main\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
+                "d:\\_Project\\SGG_STM32_Bluetooth_Speaker-main\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Drivers\\CMSIS\\Include",
+                "d:\\_Project\\SGG_STM32_Bluetooth_Speaker-main\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\BLE",
+                "D:\\_Keil5\\ARM\\ARMCC\\include",
+                "D:\\_Keil5\\ARM\\ARMCC\\include\\rw",
+                "d:\\_Project\\SGG_STM32_Bluetooth_Speaker-main\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\MDK-ARM",
+                "d:\\_Project\\SGG_STM32_Bluetooth_Speaker-main\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Core\\Src",
+                "d:\\_Project\\SGG_STM32_Bluetooth_Speaker-main\\SGG_STM32_Bluetooth_Speaker\\PP01_BLE_HAL\\Drivers\\STM32F1xx_HAL_Driver\\Src"
             ],
             "defines": [
                 "USE_HAL_DRIVER",
