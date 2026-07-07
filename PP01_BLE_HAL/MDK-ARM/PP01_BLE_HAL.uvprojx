@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xE</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\BLE</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -506,6 +506,21 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>ble</GroupName>
+          <Files>
+            <File>
+              <FileName>Int_BLE.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\BLE\Int_BLE.c</FilePath>
+            </File>
+            <File>
+              <FileName>Int_BLE.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\BLE\Int_BLE.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
           <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
@@ -524,5 +539,14 @@
     </components>
     <files/>
   </RTE>
+
+  <LayerInfo>
+    <Layers>
+      <Layer>
+        <LayName>PP01_BLE_HAL</LayName>
+        <LayPrjMark>1</LayPrjMark>
+      </Layer>
+    </Layers>
+  </LayerInfo>
 
 </Project>

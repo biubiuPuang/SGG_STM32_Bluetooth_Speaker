@@ -23,7 +23,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "Int_BLE.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -92,6 +92,9 @@ int main(void)
 
   // 自定义函数 测试重定向的串口1是否能使用debug打印数据
   printf("hello world\r\n");
+
+  // 自定义函数,蓝牙初始化
+  Int_BLE_Init();
 
   /* USER CODE END 2 */
 

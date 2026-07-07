@@ -20,6 +20,7 @@
 "pp01_ble_hal\stm32f1xx_hal_flash_ex.o"
 "pp01_ble_hal\stm32f1xx_hal_exti.o"
 "pp01_ble_hal\system_stm32f1xx.o"
+"pp01_ble_hal\int_ble.o"
 --library_type=microlib --strict --scatter "PP01_BLE_HAL\PP01_BLE_HAL.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

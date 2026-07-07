@@ -29,3 +29,5 @@ pp01_ble_hal\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 pp01_ble_hal\main.o: ../Core/Inc/usart.h
 pp01_ble_hal\main.o: D:\Keil5\Core\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdio.h
 pp01_ble_hal\main.o: ../Core/Inc/gpio.h
+pp01_ble_hal\main.o: ..\BLE\Int_BLE.h
+pp01_ble_hal\main.o: D:\Keil5\Core\ARM\ARM_Compiler_5.06u7\Bin\..\include\string.h
